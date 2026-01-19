@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&family=Space+Grotesk:wght@400;500;600&display=swap');
+
+:root {
+  --font-display: "Space Grotesk", "IBM Plex Sans", "Segoe UI", sans-serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", sans-serif;
+
+  --color-ice-50: #f6f7f8;
+  --color-ice-100: #eff1f3;
+  --color-ice-200: #e3e6ea;
+  --color-ice-300: #d2d7dd;
+  --color-ice-400: #b9c0c7;
+  --color-slate-600: #6f7b86;
+  --color-slate-700: #4f5963;
+  --color-slate-800: #2f353a;
+  --color-slate-900: #171a1d;
+  --color-ink: #101214;
+  --color-accent: #8aa3b2;
+  --color-accent-strong: #6e8ea1;
+  --color-wash: rgba(240, 243, 246, 0.85);
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  --shadow-soft: 0 20px 40px rgba(22, 28, 34, 0.08);
+  --shadow-edge: 0 0 0 1px rgba(32, 38, 44, 0.12);
+
+  --motion-slow: 420ms;
+  --motion-med: 260ms;
+  --motion-fast: 160ms;
+  --easing-structural: cubic-bezier(0.2, 0.9, 0.2, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-slow: 1ms;
+    --motion-med: 1ms;
+    --motion-fast: 1ms;
+  }
+}
